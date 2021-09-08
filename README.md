@@ -43,5 +43,5 @@ $ npm run dev
      クライアント⇒決まったら追加　多分Axios
 
 ## アーキテクチャ
-Nuxt をベース、インフラ層やドメイン層を追加。
+Nuxt+composition API、インフラ層やドメイン層を追加予定。
 
