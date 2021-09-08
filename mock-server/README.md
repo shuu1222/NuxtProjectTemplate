@@ -5,15 +5,13 @@
 ```bash
 npm run mock
 
-# もしくは
-node mock-server/index.js
 ```
 
-http://localhost:4000 にサーバーが立ち上がる（仮）
+http://localhost:4000 にサーバーが立ち上がる（仮→決まったら修正）
 
 ## 使用ライブラリ
 - [-server]()
-選定が完了したら追記　 のサーバー
+選定が完了したら追記(たぶんAxios-mock-serverになると思う)　 のサーバー
 
 - [casual](https://github.com/boo1ean/casual)  
 様々な形式のモックデータを出力できる
