@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "css.validate": false,
+  "scss.validate": true,
+  // ファイル保存時に自動修正
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  // ESLint のディレクトリ指定する　（現在仮で指定してあるので、修正してこの文を削除する）
+  "eslint.workingDirectories": ["user-front"],
+  // 関連付け
+  "files.associations": {
+    "Dockerfile*": "dockerfile"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

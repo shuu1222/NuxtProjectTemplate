@@ -1,0 +1,45 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest --maxWorkers=50%",
+    "test:ci": "jest --runInBand",
+    "test:watch": "jest --watch --maxWorkers=25%"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^1.0.0",
+    "@nuxtjs/composition-api": "^0.27.0",
+    "admin-lte": "^3.1.0",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "nuxt-typed-vuex": "^0.1.16"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/eslint-config-typescript": "^1.0.0",
+    "@sucrase/jest-plugin": "^2.1.0",
+    "@types/jest": "^27.0.1",
+    "@vue/test-utils": "^1.2.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^27.0.5",
+    "eslint": "^6.1.0",
+    "jest": "^27.1.0",
+    "node-sass": "^4.13.0",
+    "prettier": "^2.3.2",
+    "sass-loader": "^10.1.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended-scss": "^4.3.0",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-scss": "^3.20.1",
+    "typescript": "^4.4.2",
+    "vue-jest": "^3.0.4"
+  }
+}

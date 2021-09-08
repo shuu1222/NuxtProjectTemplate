@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    // formatter/linter
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    // language
+    "mikestead.dotenv",
+    "octref.vetur",
+    "zignd.html-css-class-completion",
+    // misc
+    "ms-vsliveshare.vsliveshare",
+    "streetsidesoftware.code-spell-checker",
+    "aaron-bond.better-comments"
+  ]
+}
