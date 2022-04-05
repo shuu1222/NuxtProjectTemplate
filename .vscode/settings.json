@@ -2,6 +2,8 @@
   "editor.formatOnSave": true,
   "css.validate": false,
   "scss.validate": true,
+  // ESLint のディレクトリ指定
+  "eslint.workingDirectories": ["./"],
   // ファイル保存時に自動修正
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
