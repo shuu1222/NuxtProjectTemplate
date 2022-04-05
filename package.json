@@ -10,6 +10,8 @@
     "test": "jest --maxWorkers=50%",
     "test:ci": "jest --runInBand",
     "test:watch": "jest --watch --maxWorkers=25%"
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .eslintignore .",
+
   },
   "lint-staged": {
     "*.{js,vue,ts}": [
