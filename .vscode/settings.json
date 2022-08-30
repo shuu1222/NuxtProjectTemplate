@@ -22,4 +22,109 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  
+  "highlight.regexes": {
+    "(TODO:?)": [
+      {
+        "overviewRulerColor": "#ffcc00",
+        "backgroundColor": "#cc9900",
+        "color": "#ffffff",
+        "fontWeight": "bold"
+      }
+    ],
+    "(FIXME:?)": [
+      {
+        "overviewRulerColor": "#ff0000",
+        "backgroundColor": "#ff0000",
+        "color": "#ffffff",
+        "fontWeight": "bold"
+      }
+    ],
+    "(@param)": [
+      {
+        "overviewRulerColor": "#ff0000",
+        "backgroundColor": "",
+        "color": "#32cd32",
+        "fontWeight": "bold"
+      }
+    ],
+    "(methods:)": [
+      {
+        "overviewRulerColor": "#ff0000",
+        "backgroundColor": "",
+        "color": "#ff0000",
+        "fontWeight": "middle",
+        "fontStyle": "italic"
+      }
+    ],
+    "(computed:)": [
+      {
+        "overviewRulerColor": "#ff0000",
+        "backgroundColor": "",
+        "color": "#ff0000",
+        "fontWeight": "middle",
+        "fontStyle": "italic"
+      }
+    ],
+    "(watch:)": [
+      {
+        "overviewRulerColor": "#ff0000",
+        "backgroundColor": "",
+        "color": "#ff0000",
+        "fontWeight": "middle",
+        "fontStyle": "italic"
+      }
+    ],
+    "(components:)": [
+      {
+        "overviewRulerColor": "#ff0000",
+        "backgroundColor": "",
+        "color": "#ff0000",
+        "fontWeight": "middle",
+        "fontStyle": "italic"
+      }
+    ],
+    "(@click)": [
+      {
+        "overviewRulerColor": "#0000FF",
+        "backgroundColor": "",
+        "color": "#ff4500",
+        "fontWeight": "middle",
+        "fontStyle": "italic"
+      }
+    ],
+    "(getters:)": [
+      {
+        "overviewRulerColor": "#0000FF",
+        "backgroundColor": "",
+        "color": "#ff4500",
+        "fontWeight": "bold",
+        "fontStyle": "italic"
+      }
+    ],
+    "(actions:)": [
+      {
+        "overviewRulerColor": "#0000FF",
+        "backgroundColor": "",
+        "color": "#ff4500",
+        "fontWeight": "bold",
+        "fontStyle": "italic"
+      }
+    ],
+    "(mutations:)": [
+      {
+        "overviewRulerColor": "#0000FF",
+        "backgroundColor": "",
+        "color": "#ff4500",
+        "fontWeight": "bold",
+        "fontStyle": "italic"
+      }
+    ],
+    "(// )(@\\w+)": [
+      {},
+      {
+        "color": "#3399cc"
+      }
+    ]
+  },
 }
